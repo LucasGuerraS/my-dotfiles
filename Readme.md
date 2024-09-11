@@ -5,4 +5,3 @@
 - ./tmux.conf
 - ./zshrc
 - nvim
-- oh-my-zsh
