@@ -115,10 +115,9 @@ alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-# ---- FZF -----
 
-# Set up fzf key bindings and fuzzy completion
-eval "$(fzf --zsh)"
 
 PATH=~/.console-ninja/.bin:$PATH
 
+source ~/powerlevel10k/powerlevel10k.zsh-theme
+source ~/powerlevel10k/powerlevel10k.zsh-theme
